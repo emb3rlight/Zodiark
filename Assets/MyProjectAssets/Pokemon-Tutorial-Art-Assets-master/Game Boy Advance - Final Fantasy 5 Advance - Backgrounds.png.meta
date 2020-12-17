@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 4a9ab577947722242b69f23cd0a644cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9020014190786465739
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_0
+  - first:
+      213: 1033096021521815062
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_1
+  - first:
+      213: 4358763884044738705
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_2
+  - first:
+      213: -7066340495928878248
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_3
+  - first:
+      213: -1367500894498893266
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_4
+  - first:
+      213: 7868995640891112519
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_5
+  - first:
+      213: -7573289967341482080
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_6
+  - first:
+      213: 4521185685582685345
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_7
+  - first:
+      213: -8409255984853768476
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_8
+  - first:
+      213: 866294859060147477
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_9
+  - first:
+      213: 4116260297968528461
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_10
+  - first:
+      213: -5129276076231054460
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_11
+  - first:
+      213: -3331391428201213158
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_12
+  - first:
+      213: -2906177853602341048
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_13
+  - first:
+      213: -6893398617781068261
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_14
+  - first:
+      213: 5278569674805137160
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_15
+  - first:
+      213: 9106660594493562357
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_16
+  - first:
+      213: -1967938656183242868
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_17
+  - first:
+      213: 8172225892998624559
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_18
+  - first:
+      213: -3848068444346140501
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_19
+  - first:
+      213: -6401266615785209811
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_20
+  - first:
+      213: -3434975575226153016
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_21
+  - first:
+      213: -6391539202921934059
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_22
+  - first:
+      213: 5322779471434102672
+    second: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 703
+        width: 256
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530b03132e872d280800000000000000
+      internalID: -9020014190786465739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 702
+        width: 256
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6165da5ab5b465e00800000000000000
+      internalID: 1033096021521815062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 701.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190e948a8a07d7c30800000000000000
+      internalID: 4358763884044738705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 701.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b933e02c05fed90800000000000000
+      internalID: -7066340495928878248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 561.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e225d598e29a50de0800000000000000
+      internalID: -1367500894498893266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 561.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c796af7d9443d60800000000000000
+      internalID: 7868995640891112519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 562
+        width: 256
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afc49356e446e690800000000000000
+      internalID: -7573289967341482080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 561.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4acb04d6a7ebe30800000000000000
+      internalID: 4521185685582685345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6a6756c325c4b80800000000000000
+      internalID: -8409255984853768476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_9
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 421.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515f601a592b50c00800000000000000
+      internalID: 866294859060147477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 421.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c257f9ee4ef1930800000000000000
+      internalID: 4116260297968528461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_11
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 421.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ba651b59621d8b0800000000000000
+      internalID: -5129276076231054460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a131942852584c1d0800000000000000
+      internalID: -3331391428201213158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 281.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fdce5c3ae2ba7d0800000000000000
+      internalID: -2906177853602341048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 281.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e9dfbda7ab550a0800000000000000
+      internalID: -6893398617781068261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_15
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 281.6667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fc8e4f62f314940800000000000000
+      internalID: 5278569674805137160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141.66667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd16d0cf8b516e70800000000000000
+      internalID: 9106660594493562357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_17
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 141.66667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f2072083a70b4e0800000000000000
+      internalID: -1967938656183242868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_18
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 141.66667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25be60c624996170800000000000000
+      internalID: 8172225892998624559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 141.66667
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8bb57432ae89ac0800000000000000
+      internalID: -3848068444346140501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6666718
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d204e85ade12a27a0800000000000000
+      internalID: -6401266615785209811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1.6666718
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c78082e9e38450d0800000000000000
+      internalID: -3434975575226153016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1.6666718
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513dad175f0bc47a0800000000000000
+      internalID: -6391539202921934059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Final Fantasy 5 Advance - Backgrounds_23
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1.6666718
+        width: 261
+        height: 140.33333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097329c5abf4ed940800000000000000
+      internalID: 5322779471434102672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

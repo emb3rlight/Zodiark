@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ad02fdc500d3e418bacca6cc1c1a19, type: 3}
+  m_Name: Enemy2
+  m_EditorClassIdentifier: 
+  charname: Dork2
+  description: 
+  rightsprite: {fileID: 368555085621994118, guid: 9a9d7608795eb15429a025e426fa096d, type: 3}
+  leftsprite: {fileID: 368555085621994118, guid: 9a9d7608795eb15429a025e426fa096d, type: 3}
+  maxHP: 1233
+  maxMP: 2312
+  attack: 52134
+  strength: 234
+  defence: 465
+  agi: 754
+  magic: 345
+  magicdefence: 234
+  speed: 123
+  luck: 23
+  evasion: 13
+  accuracy: 5234
+  element1: 0
+  element2: 0
+  learnableMoves: []

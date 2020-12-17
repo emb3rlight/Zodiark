@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: ef72d27d950cdd84eb25975ae23137ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4283054906188382105
+    second: PartyMem5 Sprite Sheet_0
+  - first:
+      213: 3194798801637100184
+    second: PartyMem5 Sprite Sheet_1
+  - first:
+      213: 5040591839187230332
+    second: PartyMem5 Sprite Sheet_2
+  - first:
+      213: -938501411561416137
+    second: PartyMem5 Sprite Sheet_3
+  - first:
+      213: 703865433163062997
+    second: PartyMem5 Sprite Sheet_4
+  - first:
+      213: 3092210249253909027
+    second: PartyMem5 Sprite Sheet_5
+  - first:
+      213: -7955883309162367560
+    second: PartyMem5 Sprite Sheet_6
+  - first:
+      213: 1577848510308285933
+    second: PartyMem5 Sprite Sheet_7
+  - first:
+      213: 8038370685766155685
+    second: PartyMem5 Sprite Sheet_8
+  - first:
+      213: 273722119761915002
+    second: PartyMem5 Sprite Sheet_9
+  - first:
+      213: -635716872129008532
+    second: PartyMem5 Sprite Sheet_10
+  - first:
+      213: 1382196116122551002
+    second: PartyMem5 Sprite Sheet_11
+  - first:
+      213: -85382192102006934
+    second: PartyMem5 Sprite Sheet_12
+  - first:
+      213: 2825118485991478709
+    second: PartyMem5 Sprite Sheet_13
+  - first:
+      213: -4197373762102126930
+    second: PartyMem5 Sprite Sheet_14
+  - first:
+      213: -5689190209739745402
+    second: PartyMem5 Sprite Sheet_15
+  - first:
+      213: -2078032636663806435
+    second: PartyMem5 Sprite Sheet_16
+  - first:
+      213: -4788405771538915583
+    second: PartyMem5 Sprite Sheet_17
+  - first:
+      213: -7259941375342666316
+    second: PartyMem5 Sprite Sheet_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 136
+        width: 96
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760c52361488f84c0800000000000000
+      internalID: -4283054906188382105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 104
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a4c645594365c20800000000000000
+      internalID: 3194798801637100184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7edc705297c3f540800000000000000
+      internalID: 5040591839187230332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 104
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73adda640f5c9f2f0800000000000000
+      internalID: -938501411561416137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 104
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de5c59d1e1a4c900800000000000000
+      internalID: 703865433163062997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 73
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322f995a6dcb9ea20800000000000000
+      internalID: 3092210249253909027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 72
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5faea4846079190800000000000000
+      internalID: -7955883309162367560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedfd4e3cd4a5e510800000000000000
+      internalID: 1577848510308285933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 40
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad3102bc870e8f60800000000000000
+      internalID: 8038370685766155685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 46
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c639351d47cc300800000000000000
+      internalID: 273722119761915002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 40
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c270b7fda7d27f0800000000000000
+      internalID: -635716872129008532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 44
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2c86f5b0c8e2310800000000000000
+      internalID: 1382196116122551002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 46
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f9d914959a0def0800000000000000
+      internalID: -85382192102006934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 40
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b559ed7b46d43720800000000000000
+      internalID: 2825118485991478709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 40
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea69b505dceefb5c0800000000000000
+      internalID: -4197373762102126930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 40
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68715d895afeb01b0800000000000000
+      internalID: -5689190209739745402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d164cfba3585923e0800000000000000
+      internalID: -2078032636663806435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 8
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f1ef2225a2c8db0800000000000000
+      internalID: -4788405771538915583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyMem5 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 8
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd1a80b8c18f3b90800000000000000
+      internalID: -7259941375342666316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
