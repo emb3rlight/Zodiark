@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,16 +13,13 @@ public class BattleHud : MonoBehaviour
 
 
 
-
-    public void SetData(Char Char)
+    public void SetData(Char playerUnit1,Char enemyUnit1, Char enemyUnit2)
     {
 
-        //test 123
-        Player1NameText.text = Char.Base.Name;
-        Enemy1NameText.text = Char.Base.Name;
-        Enemy2NameText.text = Char.Base.Name;
-        levelText.text = "Level " + Char.Level;
-        ATKText.text = "ATK " + Char.Attack;
+        
+        Player1NameText.text = playerUnit1.Base.Name;
+        Enemy1NameText.text = enemyUnit1.Base.Name;
+        Enemy2NameText.text = enemyUnit2.Base.Name;
     }
 
 

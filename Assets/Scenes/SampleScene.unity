@@ -1753,6 +1753,7 @@ MonoBehaviour:
   playerHud: {fileID: 1979870098}
   enemyUnit1: {fileID: 921441670}
   enemyUnit2: {fileID: 648804902}
+  playerHud123456789: {fileID: 0}
 --- !u!1 &1926014858
 GameObject:
   m_ObjectHideFlags: 0
