@@ -22,10 +22,10 @@ private void SetupBattle ()
     enemyUnit1.Setup();
     enemyUnit2.Setup();
 
+
     playerHud.SetData1(playerUnit1.Char);
     playerHud.SetData2(enemyUnit1.Char);
     playerHud.SetData3(enemyUnit2.Char);
-
 
     Debug.Log($"str = {playerUnit1.Char.Strength}");
     Debug.Log($"magic = {playerUnit1.Char.Magic}");
