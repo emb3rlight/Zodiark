@@ -4,21 +4,21 @@ using UnityEngine;
 using UnityEngine.UI;
 public class BattleUnit : MonoBehaviour
 {
- [SerializeField] CharBase _base;
- [SerializeField] int level; 
- [SerializeField] bool isPlayerUnit;
+[SerializeField] CharBase _base;
+[SerializeField] int level; 
+[SerializeField] bool isPlayerUnit;
 
- public Char Char {get; set;}
+public Char Char {get; set;}
 
- public void Setup()
- {
-     Char = new Char (_base, level);
-     if (isPlayerUnit)
+public void Setup()
+{
+        Char = new Char (_base, level);
+    if (isPlayerUnit)
         GetComponent<Image>().sprite = Char.Base.Leftsprite;
     else 
 
         GetComponent<Image>().sprite = Char.Base.Rightsprite;
- }
+}
 
 }
 
