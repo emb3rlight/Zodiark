@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ad02fdc500d3e418bacca6cc1c1a19, type: 3}
   m_Name: Char3
   m_EditorClassIdentifier: 
-  charname: 
+  charname: XVC
   description: 
-  rightsprite: {fileID: 0}
-  leftsprite: {fileID: 0}
+  rightsprite: {fileID: 2418561019883150656, guid: 9eb9674ea8fc7d349a16c63b99c885a9, type: 3}
+  leftsprite: {fileID: 2418561019883150656, guid: 9eb9674ea8fc7d349a16c63b99c885a9, type: 3}
   maxHP: 0
   maxMP: 0
   attack: 0
+  strength: 0
   defence: 0
   agi: 0
-  magicattack: 0
+  magic: 0
   magicdefence: 0
   speed: 0
   luck: 0

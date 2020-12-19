@@ -6,37 +6,49 @@ public class BattleHud : MonoBehaviour
 {
 
 
- [SerializeField] Text Player1NameText; 
+    [SerializeField] Text Player1NameText; 
+    [SerializeField] Text Player2NameText; 
+    [SerializeField] Text Player3NameText; 
+    [SerializeField] Text Player4NameText; 
     [SerializeField] Text Enemy1NameText; 
-    [SerializeField] Text Enemy2NameText; 
+    [SerializeField] Text Enemy2NameText;
+    [SerializeField] Text Enemy3NameText;  
     [SerializeField] Text levelText; 
     [SerializeField] Text ATKText;
 
-    public void SetData1(Char Char)
+    public void SetDataPlayer1(Char Char)
     {
-
-
         Player1NameText.text = Char.Base.Name;
-        levelText.text = "Level " + Char.Level;
-        
+        // levelText.text = "Level " + Char.Level;
     }
-
-public void SetData2(Char Char)
+        public void SetDataPlayer2(Char Char)
     {
-
-        //test 123
+        Player2NameText.text = Char.Base.Name;
+        // levelText.text = "Level " + Char.Level;
+    }
+        public void SetDataPlayer3(Char Char)
+    {
+        Player3NameText.text = Char.Base.Name;
+        // levelText.text = "Level " + Char.Level;
+    }
+        public void SetDataPlayer4(Char Char)
+    {
+        Player4NameText.text = Char.Base.Name;
+        // levelText.text = "Level " + Char.Level;
+    }
+public void SetDataEnemy1(Char Char)
+    {
         Enemy1NameText.text = Char.Base.Name;
-        
     }
-
-
-public void SetData3(Char Char)
+public void SetDataEnemy2(Char Char)
     {
-
-        //test 123
         Enemy2NameText.text = Char.Base.Name;
-        ATKText.text = "ATK " + Char.Strength;
-
+       // ATKText.text = "ATK " + Char.Strength;
     }
 
+    public void SetDataEnemy3(Char Char)
+    {
+        Enemy3NameText.text = Char.Base.Name;
+       // ATKText.text = "ATK " + Char.Strength;
+    }
 }

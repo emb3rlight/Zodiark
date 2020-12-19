@@ -5,11 +5,15 @@ using UnityEngine;
 public class BattleSystem : MonoBehaviour
 {
     [SerializeField] BattleUnit playerUnit1; 
-    [SerializeField] BattleHud playerHud; 
+    [SerializeField] BattleUnit playerUnit2; 
+    [SerializeField] BattleUnit playerUnit3; 
+    [SerializeField] BattleUnit playerUnit4; 
     [SerializeField] BattleUnit enemyUnit1; 
     [SerializeField] BattleUnit enemyUnit2; 
+    [SerializeField] BattleUnit enemyUnit3; 
 
-    [SerializeField] BattleHud playerHud123456789;
+    [SerializeField] BattleHud playerHud;
+
 
 private void Start ()
 {
@@ -19,13 +23,21 @@ private void Start ()
 private void SetupBattle ()
 {
     playerUnit1.Setup();
+    playerUnit2.Setup();
+    playerUnit3.Setup();
+    playerUnit4.Setup();
     enemyUnit1.Setup();
     enemyUnit2.Setup();
+    enemyUnit3.Setup();
 
 
-    playerHud.SetData1(playerUnit1.Char);
-    playerHud.SetData2(enemyUnit1.Char);
-    playerHud.SetData3(enemyUnit2.Char);
+    playerHud.SetDataPlayer1(playerUnit1.Char);
+    playerHud.SetDataPlayer2(playerUnit2.Char);
+    playerHud.SetDataPlayer3(playerUnit3.Char);
+    playerHud.SetDataPlayer4(playerUnit4.Char);
+    playerHud.SetDataEnemy1(enemyUnit1.Char);
+    playerHud.SetDataEnemy2(enemyUnit2.Char);
+    playerHud.SetDataEnemy3(enemyUnit3.Char);
 
     Debug.Log($"str = {playerUnit1.Char.Strength}");
     Debug.Log($"magic = {playerUnit1.Char.Magic}");

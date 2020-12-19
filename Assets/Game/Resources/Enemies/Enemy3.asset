@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2ad02fdc500d3e418bacca6cc1c1a19, type: 3}
-  m_Name: Char2
+  m_Name: Enemy3
   m_EditorClassIdentifier: 
-  charname: POPPERS
+  charname: Yemi
   description: 
-  rightsprite: {fileID: -4500244970831006254, guid: ee1953ba90c7b354bbaae7afa0552702, type: 3}
-  leftsprite: {fileID: 7922656061952996407, guid: ee1953ba90c7b354bbaae7afa0552702, type: 3}
-  maxHP: 0
-  maxMP: 0
-  attack: 0
-  strength: 0
-  defence: 0
-  agi: 0
-  magic: 0
-  magicdefence: 0
-  speed: 0
-  luck: 0
-  evasion: 0
-  accuracy: 0
+  rightsprite: {fileID: -860468679390908754, guid: 9a9d7608795eb15429a025e426fa096d, type: 3}
+  leftsprite: {fileID: -860468679390908754, guid: 9a9d7608795eb15429a025e426fa096d, type: 3}
+  maxHP: 100
+  maxMP: 10
+  attack: 10
+  strength: 10
+  defence: 10
+  agi: 10
+  magic: 10
+  magicdefence: 10
+  speed: 10
+  luck: 10
+  evasion: 10
+  accuracy: 10
   element1: 0
   element2: 0
   learnableMoves: []
