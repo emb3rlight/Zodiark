@@ -16,6 +16,7 @@ public class MoveBase : ScriptableObject
     [SerializeField] int magicpower; 
     [SerializeField] int accuracy; 
     [SerializeField] int movespeed; 
+    [SerializeField] int movecost; 
 
 //properties to expose to other classes instead of using function
 public string CharMoveName {
@@ -38,6 +39,9 @@ public int Accuracy {
 }
 public int Movespeed {
    get {return movespeed; }
+}
+public int MoveCost {
+   get {return movecost; }
 
 }
 

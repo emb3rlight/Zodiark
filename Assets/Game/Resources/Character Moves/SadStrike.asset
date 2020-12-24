@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24b57cfc6fa32d74597e5255a3d84c92, type: 3}
-  m_Name: TrueStrke
+  m_Name: SadStrike
   m_EditorClassIdentifier: 
-  Charmovename: True Strike
-  description: The Truest of strikes
-  element: 1
-  attackpower: 100
+  Charmovename: SadStrike
+  description: The Saddest of Strikes
+  element: 4
+  attackpower: 800
   magicpower: 10
-  accuracy: 5
-  movespeed: 5
-  movecost: 100
+  accuracy: 10
+  movespeed: 10
+  movecost: 20

@@ -16,7 +16,7 @@ MonoBehaviour:
   description: 
   rightsprite: {fileID: 2418561019883150656, guid: 9eb9674ea8fc7d349a16c63b99c885a9, type: 3}
   leftsprite: {fileID: 2418561019883150656, guid: 9eb9674ea8fc7d349a16c63b99c885a9, type: 3}
-  maxHP: 0
+  maxHP: 500
   maxMP: 0
   attack: 0
   strength: 0
