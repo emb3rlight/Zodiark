@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.UI;
+using System;
 
 //Battle State ENGINE START
 public enum BattleState {Start, PlayerAction, PlayerMove, EnemyMove, Busy}
@@ -24,10 +25,11 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] BattleUnit enemyUnit3; 
     [SerializeField] BattleHud playerHud;
     [SerializeField] NotificationBox NotificationBox;
+    public event Action<bool> OnBattleOver; 
     BattleState state;
     int currentAction; 
     int currentMove;
-private void Start ()
+public void StartBattle()
 {
     
     StartCoroutine(SetupBattle());
@@ -61,6 +63,7 @@ private IEnumerator SetupBattle ()
 
     //moves Engine to state PlyaerAction
     PlayerAction();
+
 }
 
     //moves Engine to state PlyaerAction
@@ -83,7 +86,59 @@ private IEnumerator SetupBattle ()
 
     }
 
-private void Update() 
+IEnumerator PerformPlayerMove()
+{
+
+    state = BattleState.Busy; 
+
+    var move = playerUnit1.Char.Moves[currentMove];
+    playerHud.EnableNotificationText(true);
+    yield return NotificationBox.TypeDialog($"{playerUnit1.Char.Base.Name} used {move.Base.CharMoveName}");    
+    yield return new WaitForSeconds(1f);
+
+    bool isFainted = enemyUnit1.Char.TakeDamage(move, playerUnit1.Char);
+    playerHud.UpdateHP();
+
+    if (isFainted)
+    {
+        yield return NotificationBox.TypeDialog($"{enemyUnit1.Char.Base.Name} is dead");
+        yield return new WaitForSeconds(2f);
+        OnBattleOver(true);
+    }
+    else
+    {
+        StartCoroutine(EnemyMove());
+    }
+
+}
+
+    IEnumerator EnemyMove()
+    {
+        state = BattleState.EnemyMove;
+
+        var move = enemyUnit1.Char.GetRandonMove();
+        playerHud.EnableNotificationText(true);
+        yield return NotificationBox.TypeDialog($"{enemyUnit1.Char.Base.Name} used {move.Base.CharMoveName}");    
+        yield return new WaitForSeconds(1f);
+
+        bool isFainted = playerUnit1.Char.TakeDamage(move, playerUnit1.Char);
+        playerHud.UpdateHP();
+
+        if (isFainted)
+        {
+        yield return NotificationBox.TypeDialog($"{playerUnit1.Char.Base.Name} is dead");
+        yield return new WaitForSeconds(2f);
+        OnBattleOver(false);
+
+
+        } 
+        else
+        {
+        PlayerAction();
+        }
+    }
+
+public void HandleUpdate() 
     {
         if (state == BattleState.PlayerAction)
         {
@@ -165,5 +220,13 @@ void HandleActionSelection()
         currentMove -= 4;
     }
     playerHud.UpdateMoveSelection(currentMove, playerUnit1.Char.Moves[currentMove]);
+
+    if (kb.jKey.wasPressedThisFrame)
+    {
+        playerHud.EnableMoveSelector(false);
+        StartCoroutine(PerformPlayerMove());
+        
+    }
+
     }   
 }

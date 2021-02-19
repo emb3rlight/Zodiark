@@ -32,12 +32,16 @@ public class BattleHud : MonoBehaviour
 [SerializeField] Text movecostText; 
 [SerializeField] Text movedetailsText; 
 //Action and Move Select End
-[SerializeField] Color highlightedColor; 
+[SerializeField] Color highlightedColor;
+
+Char _char; 
 
 
 //VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
     public void SetDataPlayer1(Char Char)
     {
+         _char = Char;
+
         Player1NameText.text = Char.Base.Name;
         Player1HPText.text = ($"{Char.CurrentHP}/{Char.MaxHP}"); 
         // levelText.text = "Level " + Char.Level;
@@ -69,13 +73,20 @@ public void SetDataEnemy2(Char Char)
         Enemy2NameText.text = Char.Base.Name;
        // ATKText.text = "ATK " + Char.Strength;
     }
-
     public void SetDataEnemy3(Char Char)
     {
         Enemy3NameText.text = Char.Base.Name;
        // ATKText.text = "ATK " + Char.Strength;
     }
 //VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+
+    public void UpdateHP()
+    {
+        Player1HPText.text = ($"{_char.CurrentHP}/{_char.MaxHP}"); 
+    }
+
+
 
     public void EnableNotificationText(bool enabled)
     {
