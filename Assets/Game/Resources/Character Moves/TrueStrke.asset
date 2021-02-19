@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b57cfc6fa32d74597e5255a3d84c92, type: 3}
   m_Name: TrueStrke
   m_EditorClassIdentifier: 
-  movename: 
-  description: 
+  Charmovename: True Strike
+  description: The Truest of strikes
   element: 1
   attackpower: 100
   magicpower: 10
   accuracy: 5
   movespeed: 5
+  movecost: 100
