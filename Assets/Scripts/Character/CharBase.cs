@@ -26,6 +26,9 @@ public Sprite Leftsprite {
    //base stats
 
 [SerializeField] int maxHP;
+
+
+
 [SerializeField] int maxMP;
 [SerializeField] int attack;
 [SerializeField] int strength;

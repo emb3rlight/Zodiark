@@ -29,6 +29,29 @@ public class BattleSystem : MonoBehaviour
     BattleState state;
     int currentAction; 
     int currentMove;
+
+    public static BattleSystem instance;
+
+    private bool battleAcitve;
+
+    //Initiates correct battle background image
+    [HideInInspector]
+    public SpriteRenderer spriteRenderer;
+    [HideInInspector]
+    public Sprite battleBG;
+
+ //Music
+    public int battleMusicIntro;
+    public int battleMusic;
+    public int victoryMusicIntro;
+    public int victoryMusic;
+
+[Header("Battle Effects")]
+    //References to battle effect prefabs
+    public GameObject enemyAttackEffect;
+    public GameObject characterTurnIndicator;
+    // public DamageNumber theDamageNumber;
+
 public void StartBattle()
 {
     
@@ -46,6 +69,8 @@ private IEnumerator SetupBattle ()
     enemyUnit2.Setup();
     enemyUnit3.Setup();
 
+
+
 // Sets Dynamic object data inside hud for each object
     playerHud.SetDataPlayer1(playerUnit1.Char);
     playerHud.SetDataPlayer2(playerUnit2.Char);
@@ -56,6 +81,7 @@ private IEnumerator SetupBattle ()
     playerHud.SetDataEnemy3(enemyUnit3.Char);
 
     playerHud.SetMoveNames(playerUnit1.Char.Moves);
+
 
 //controls encounter-notifcation text
     yield return (NotificationBox.TypeDialog($"A Wild {enemyUnit1.Char.Base.Name}, {enemyUnit2.Char.Base.Name} and {enemyUnit3.Char.Base.Name} appeared"));
