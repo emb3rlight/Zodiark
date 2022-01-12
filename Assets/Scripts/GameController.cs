@@ -12,9 +12,16 @@ public class GameController : MonoBehaviour
     [SerializeField] Camera worldCamera;
     GameState state; 
 
+ public static GameController instance;
+private void Awake()
+{
+    worldCamera.gameObject.SetActive(true);
+   
+}
 
 private void Start()
 {
+    
     playerController.OnEncountered += StartBattle; 
     battleSystem.OnBattleOver += EndBattle;
     

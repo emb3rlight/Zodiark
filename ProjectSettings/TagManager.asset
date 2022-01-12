@@ -41,9 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Bottom Layer
+  - name: Background
     uniqueID: 871916723
     locked: 0
-  - name: Top Layer
+  - name: Player
     uniqueID: 1111237655
+    locked: 0
+  - name: Foreground
+    uniqueID: 162201727
+    locked: 0
+  - name: Battleground
+    uniqueID: 2590169557
+    locked: 0
+  - name: Battle Characters
+    uniqueID: 343132441
     locked: 0

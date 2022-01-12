@@ -14,7 +14,7 @@ public class ControlPlayer : MonoBehaviour
     public LayerMask EncounterLayer;
 
     public event Action OnEncountered; 
-    [SerializeField] Camera worldCamera;
+    public GameObject worldCamera;
 
     void Awake()
     {
@@ -24,6 +24,9 @@ public class ControlPlayer : MonoBehaviour
         controls.Gameplay.PlayerAction.performed += ctx => PlayerAction();
         controls.Gameplay.Move.performed += ctx => move = ctx.ReadValue<Vector2>();
         controls.Gameplay.Move.canceled += ctx => move = Vector2.zero;
+
+        worldCamera = GameObject.Find("Main Camera");
+
 
         void PlayerAction()
         {
@@ -36,6 +39,7 @@ private void Update() {
     
     if (worldCamera.gameObject.activeSelf == true)
     {
+    
        CheckForEncounters(); 
     }
     
@@ -62,7 +66,7 @@ void OnDisable()
         {
             if (Physics2D.OverlapCircle(transform.position, 0.2f, EncounterLayer) != null)
             {
-                if (UnityEngine.Random.Range(1, 10001) <= 10)
+                if (UnityEngine.Random.Range(1, 20001) <= 10)
                 {
                     OnEncountered();
                     Debug.Log("OnEncountered");
