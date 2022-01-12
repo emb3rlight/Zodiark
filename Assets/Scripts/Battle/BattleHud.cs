@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+//ergfdgdfgdfgdfg
 
 public class BattleHud : MonoBehaviour
 {
@@ -40,6 +40,7 @@ Char _char;
 //VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 //TESTTESTETST
 //te2131231233213123123
+//123123124123123
     public void SetDataPlayer1(Char Char)
     {
          _char = Char;
